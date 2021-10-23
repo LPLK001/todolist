@@ -1,0 +1,90 @@
+.todo {
+	display: flex;
+    width: 50%;
+	padding: 10px 15px;
+	background-color: #FFF;
+	border-bottom: 1px solid #DDD;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.todo .id {
+	flex: 1 1 50px;
+}
+
+.todo .content {
+	flex: 1 1 100%;
+    cursor: pointer;
+}
+
+.todo.done .content {
+	text-decoration: line-through;
+}
+
+.todo-input {
+	display: block;
+	width: 30%;
+	padding: 10px 15px;
+	appearance: none;
+	border: 1px solid black;
+	background-color: #ffffff;
+	margin-top: 15px;
+	font-size: 20px;
+	outline: none;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+.todo-submit {
+	display:block;
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+
+	background-color: #000000;
+	color: #FFF;
+    height: 45.2px;
+	padding: 10px 15px;
+	font-size: 18px;
+	font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.delete {
+    background: transparent;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+}
+
+.edit{
+    background: transparent;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+    margin-right: 10px;
+}
+
+.edit:hover{
+    font-weight: bolder;
+}
+
+.delete:hover{
+    font-weight: bolder;
+}
+
+button{
+    cursor: pointer;
+}
+
+
